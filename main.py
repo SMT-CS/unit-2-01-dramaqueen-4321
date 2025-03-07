@@ -3,7 +3,7 @@
 Created by: Blessing Abolarin
 Created on: Feb 2025
 This module calculates the arcircumfrence of a circle
-    with radius 21 mm.
+    
 """
 
 import math
@@ -16,7 +16,7 @@ def main() -> None:
     """
     print("If a circle has a radius of 21 mm:")
     print("")
-    print(f"The circumfrence is {(2 * math.pi * 21):.2f} mm².")
+    print(f"The circumfrence is {(2 * math.pi * 21):.5f} mm².")
 
     print("\nDone.")
 
